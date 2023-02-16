@@ -6,10 +6,10 @@ Rails.application.routes.draw do
   # TYPE2 = "c1".freeze
 
   # constraints subdomain: 'c' do
+    root "posts#index"
     resources :posts
   # end
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
   # Defines the root path route ("/")
-  # root "articles#index"
 end
